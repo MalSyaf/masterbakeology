@@ -715,9 +715,14 @@ nav ul li a:hover {
 
   
 /* RESPONSIVE */
-@media screen and (max-width:768px) {
+@media screen and (max-width:768px) 
+{
     html{
         font-size: 70%;    
+    }
+
+    body {
+        overflow-x: hidden;
     }
     
     /* Navbar */
@@ -727,7 +732,7 @@ nav ul li a:hover {
         right: 10%;
     }
      
-    nav {
+    /* nav {
         position: fixed;
         display: flex;
         justify-content: space-around;
@@ -737,9 +742,9 @@ nav ul li a:hover {
         min-height: 8vh;
         background-color: #fff;
         width: 100%;
-        z-index: 2;
+        z-index: 2; 
         
-    }
+    }*/
 
     .nav-links {
         position: absolute;
@@ -763,6 +768,7 @@ nav ul li a:hover {
         display: block;
         margin-left: 90%;
     }
+
 
      /* Navbar */
 
