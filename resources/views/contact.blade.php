@@ -14,7 +14,7 @@
             <img src="logo/logo.png" height="50" width="50">
         </div> -->
         <div class="name">
-            <h4>Master Bakeology</h4>
+            <h4>Masterbakeology</h4>
         </div>
         <ul class="nav-links">
             <li>

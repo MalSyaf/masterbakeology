@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
 
 /* STYLE */
+
 * {
     font-family: "Open Sans", sans-serif;
     margin: 0;
@@ -9,12 +10,13 @@
     text-decoration: none;
     outline: none;
 }
+
 html {
     font-size: 80%;
     overflow-x: hidden;
 }
 
-/* HOME */
+/* Home & Menu starts */
 .btn {
     height: 3rem;
     width: 10rem;
@@ -161,8 +163,9 @@ html {
     color: #29cce2;
     text-decoration: underline;
 }
+/* Home & Menu ends */
 
-/* LOGIN */
+/* Login starts */
 .login {
     position: relative;
     width: 100%;
@@ -271,8 +274,9 @@ html {
 .login .login-content .login-form p {
     color: #696969;
 }
+/* Login ends */
 
-/* REGISTER */
+/* Register starts */
 .register {
     position: relative;
     min-height: 100vh;
@@ -413,8 +417,9 @@ input:focus + .focus-input::before {
 .has-val.input + .focus-input::before {
     width: 100%;
 }
+/* Register ends */
 
-/* CONTACT */
+/* Contact starts */
 .contact {
     position: relative;
     min-height: 100vh;
@@ -544,6 +549,7 @@ input:focus + .focus-input::before {
 .contact-form .input-box input[type="submit"]:hover {
     background: #29cce2;
 }
+/* Contact ends */
 
 /* NAVBAR */
 /* .logo {
@@ -708,42 +714,19 @@ footer {
 }
 
 /* RESPONSIVE */
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-@media screen and (max-width:768px) {
-=======
-<<<<<<< Updated upstream
-@media screen and (max-width:768px) 
-{
->>>>>>> Stashed changes
-=======
-@media screen and (max-width:768px) 
-{
->>>>>>> 242f17295c8fb764277a7e270912986f88fd2369
-    html{
-        font-size: 70%;    
-    }
-
-    body {
-        overflow-x: hidden;
-    }
-    
-=======
 @media screen and (max-width: 768px) {
     html {
         font-size: 70%;
     }
 
->>>>>>> Stashed changes
     /* Navbar */
     nav .name {
         display: block;
         position: absolute;
         right: 10%;
     }
-<<<<<<< Updated upstream
-     
-    /* nav {
+
+    nav {
         position: fixed;
         display: flex;
         justify-content: space-around;
@@ -753,12 +736,9 @@ footer {
         min-height: 8vh;
         background-color: #fff;
         width: 100%;
-        z-index: 2; 
-        
-    }*/
+        z-index: 2;
+    }
 
-=======
->>>>>>> Stashed changes
     .nav-links {
         position: absolute;
         right: 0;
@@ -772,27 +752,18 @@ footer {
         transform: translateX(100%);
         z-index: 950;
     }
+
     .nav-links li {
         opacity: 0;
     }
+
     .burger {
         display: block;
         margin-left: 90%;
     }
 
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
-<<<<<<< Updated upstream
+    /* Navbar */
 
->>>>>>> Stashed changes
-=======
-
->>>>>>> 242f17295c8fb764277a7e270912986f88fd2369
-     /* Navbar */
-
-=======
->>>>>>> Stashed changes
     /* Home */
     .home .content h1 {
         font-size: 5rem;
@@ -800,6 +771,7 @@ footer {
     .home .content p {
         width: auto;
     }
+    /* Home */
 
     /* Login */
     .login .login-image {
@@ -823,6 +795,7 @@ footer {
         background: rgb(255 255 255 / 0.7);
         margin: 50px;
     }
+    /* Login */
 
     /* Register */
     .register {
@@ -848,6 +821,7 @@ footer {
     .register-image {
         display: none;
     }
+    /* Register */
 
     /* Contact */
     .contact {
@@ -863,6 +837,7 @@ footer {
     .contact-form {
         width: 100%;
     }
+    /* Contact */
 
     /* Footer */
     footer {
@@ -883,22 +858,7 @@ footer {
     .copy-right {
         padding: 8px 40px;
     }
-}
-
-/* ANIMATION */
-.nav-container {
-    animation: transitionIn 0.5s;
-}
-
-@keyframes transitionIn {
-    from {
-        opacity: 0;
-        transform: rotateX(-10deg);
-    }
-    to {
-        opacity: 1;
-        transform: rotateX(10deg);
-    }
+    /* Footer */
 }
 
 .nav-active {
@@ -924,4 +884,20 @@ footer {
 }
 .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/* TRANSITION */
+.nav-container {
+    animation: transitionIn 0.5s;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotateX(10deg);
+    }
 }
