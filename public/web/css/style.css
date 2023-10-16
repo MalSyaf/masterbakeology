@@ -708,6 +708,7 @@ footer {
 }
 
 /* RESPONSIVE */
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 @media screen and (max-width:768px) {
 =======
@@ -715,8 +716,16 @@ footer {
 @media screen and (max-width:768px) 
 {
 >>>>>>> Stashed changes
+=======
+@media screen and (max-width:768px) 
+{
+>>>>>>> 242f17295c8fb764277a7e270912986f88fd2369
     html{
         font-size: 70%;    
+    }
+
+    body {
+        overflow-x: hidden;
     }
     
 =======
@@ -734,7 +743,7 @@ footer {
     }
 <<<<<<< Updated upstream
      
-    nav {
+    /* nav {
         position: fixed;
         display: flex;
         justify-content: space-around;
@@ -744,9 +753,9 @@ footer {
         min-height: 8vh;
         background-color: #fff;
         width: 100%;
-        z-index: 2;
+        z-index: 2; 
         
-    }
+    }*/
 
 =======
 >>>>>>> Stashed changes
@@ -771,11 +780,15 @@ footer {
         margin-left: 90%;
     }
 
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 <<<<<<< Updated upstream
 
 >>>>>>> Stashed changes
+=======
+
+>>>>>>> 242f17295c8fb764277a7e270912986f88fd2369
      /* Navbar */
 
 =======
