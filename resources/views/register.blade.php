@@ -40,6 +40,10 @@
     </nav>
 
     <section class="register">
+        <div class="register-image">
+            <img src="{{ asset("web/images/register.jpg")}} "alt="">
+            <!-- <class="register-img" alt="" height="300px" width="200px"> -->
+        </div>
         <div class="register-container">
             <div class="register-form">
                 <div class="register-heading">
@@ -72,8 +76,8 @@
                 <button class="register-btn">Register</button>
             </div>
             <div class="register-image">
-            <img src="{{ asset("web/images/register.jpg")}} "alt="">
-            class="register-img" alt="" height="300px" width="200px">
+                <img src="{{ asset("web/images/register.jpg")}} "alt="">
+                <!-- <class="register-img" alt="" height="300px" width="200px"> -->
             </div>
         </div>
     </section>
