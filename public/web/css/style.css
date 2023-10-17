@@ -574,10 +574,11 @@ input:focus + .focus-input::before {
 }*/
 
 nav .name {
+    position: absolute;
     display: block;
     letter-spacing: 3px;
     font-size: 20px;
-    margin-right: 5%;
+    margin-right: 50%;
 }
 
 nav {
@@ -598,13 +599,14 @@ nav ul li a:hover {
 }
 
 .nav-links {
-    display: flex;
-    justify-content: space-around;
-    width: 25%;
+    width: 100%;
+    text-align: right;
 }
 
 .nav-links li {
-    list-style: none;
+    display: inline-block;
+    list-style: none;  
+    margin: 10px 20px;
 }
 
 .nav-links a {
@@ -613,7 +615,6 @@ nav ul li a:hover {
     letter-spacing: 3px;
     font-weight: bold;
     font-size: 14px;
-    padding: 10px 40px 10px 10px;
 }
 
 .burger {
