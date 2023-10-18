@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,12 +7,10 @@
     <!-- <link rel="icon" href="logo/logo.png" type="image/icon type"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{ asset("web/css/style.css")}}">
-
     <title>Masterbakeology</title>
 </head>
-
 <body>
-
+    <!-- NAVBAR -->
     <nav class="nav-container">
         <!-- <div class="logo">
             <img src="logo/logo.png" height="50" width="50">
@@ -23,13 +20,10 @@
         </div>
         <ul class="nav-links">
             <li>
-                <a class="active" href="index.html">Home</a>
+                <a class="active" href="{{ url('/') }}">Home</a>
             </li>
             <li>
-                <a href="index.html#menu">Menu</a>
-            </li>
-            <li>
-                <a href="contact.html">Contact</a>
+                <a href="{{ url('/') }}#menu">Menu</a>
             </li>
         </ul>
         <div class="burger">
@@ -39,6 +33,7 @@
         </div>
     </nav>
 
+    <!-- FORM -->
     <section class="register">
         <div class="register-image">
             <img src="{{ asset("web/images/register.jpg")}} "alt="">
@@ -50,7 +45,6 @@
                     <h1>Register Now</h1>
                 </div>
                 <!--<div class="wrap">
-                    
                 </div>-->
                 <div class="wrap2">
                     <label for="">Full Name</label>
@@ -82,6 +76,7 @@
         </div>
     </section>
     
+    <!-- FOOTER -->
     <footer>
         <div class="footer-container">
             <div class="sec about-us">
@@ -95,7 +90,7 @@
                 <ul>
                     <li><a href="#">Privacy Policy</a></li>
                     <li><a href="#">Terms & Conditions</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="{{ url('/contact') }}">Contact Us</a></li>
                 </ul>
             </div>
             <div class="soc-media">
@@ -112,9 +107,8 @@
         </div>
     </footer>
 
+    <!-- SCRIPT -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="{{ asset("web/js/app.js")}}"></script>
-
 </body>
-
 </html>

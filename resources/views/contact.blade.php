@@ -18,10 +18,10 @@
         </div>
         <ul class="nav-links">
             <li>
-                <a class="active" href="{{ url('/') }}">Home</a>
+                <a class="active" href="/">Home</a>
             </li>
             <li>
-                <a href="{{ url('/') }}#menu">Menu</a>
+                <a href="/#menu">Menu</a>
             </li>
         </ul>
         <div class="burger">
@@ -75,7 +75,6 @@
             </div>
         </div>
     </section>
-
 
     <!-- FOOTER -->
     <footer>

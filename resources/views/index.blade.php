@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="{{ asset("web/css/style.css")}}">
+    <link rel="stylesheet" href="{{asset("web/css/style.css")}}">
     <title>Masterbakeology</title>
 </head>
 <body>
@@ -35,12 +35,8 @@
     <div class="home" id="home">
         <div class="content">
             <h1>Welcome <span>Pastry</span> Lovers</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur officiis cumque nesciunt, dolores
-                numquam, quae
-                ratione in placeat accusamus consequuntur perferendis laboriosam, quos similique tempore quod quis
-                reprehenderit
-                nemo temporibus!</p>
-            <a href="{{ url('/login') }}"><button class="btn">Order Now</button></a>
+            <p>At Masterbakeology, we believe that every delightful morsel we bake tells a unique story, crafted with love, passion, and the finest ingredients. As you step into our virtual bakery, you embark on a journey through the world of artisanal baked goods that is as indulgent as it is heartwarming.</p>
+            <a href="login"><button class="btn">ORDER NOW</button></a>
         </div>
         <div class="shape"></div>
     </div>
@@ -113,16 +109,14 @@
         <div class="footer-container">
             <div class="sec about-us">
                 <h2>About Us</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, commodi! Repellat nam minus eum commodi
-                    deserunt sequi porro nisi, assumenda quidem sit repudiandae amet nihil provident impedit dolores
-                    fugiat tempore!</p>
+                <p>Our journey began with a simple, yet profound, love for baking. Established in 2013, we've dedicated ourselves to the art of creating exceptional baked goods that tell stories, evoke memories, and bring people together through the magic of indulgence.</p>
             </div>
             <div class="sec quick-links">
                 <h2>Quick Links</h2>
                 <ul>
                     <li><a href="#">Privacy Policy</a></li>
                     <li><a href="#">Terms & Conditions</a></li>
-                    <li><a href="{{ url('/contact') }}">Contact Us</a></li>
+                    <li><a href="contact">Contact Us</a></li>
                 </ul>
             </div>
             <div class="soc-media">

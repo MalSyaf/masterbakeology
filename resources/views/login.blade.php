@@ -59,7 +59,7 @@
                         <label for=""><input type="checkbox" name="">Remember me</label>
                     </div>
                     <div class="login-input">
-                        <input type="submit" value="Sign in" name="">
+                        <a href="/"><input type="submit" value="Sign in" name=""></a>
                     </div>
                     <div class="login-input">
                         <p>Don't have an account? <a href="register">Sign up</a></p>
