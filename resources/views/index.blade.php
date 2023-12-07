@@ -127,7 +127,7 @@
             </div>
         </div>
         <div class="copy-right">
-            <p>Copyright &copy; 2021 Master Bakeology - All Rights Reserved.</p>
+            <p>Copyright &copy; 2024 Master Bakeology - All Rights Reserved.</p>
         </div>
     </footer>
 
