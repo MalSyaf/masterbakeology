@@ -326,7 +326,6 @@ html {
     width: 55%;
 }
 
-
 .register-image {
     position: relative;
     width: 50%;
@@ -605,7 +604,7 @@ nav ul li a:hover {
 
 .nav-links li {
     display: inline-block;
-    list-style: none;  
+    list-style: none;
     margin: 10px 20px;
 }
 
@@ -705,24 +704,13 @@ footer {
     list-style: none;
 }
 
-.quick-links {
+.contact-us {
     position: relative;
     width: 25%;
 }
 
-.quick-links ul li {
-    list-style: none;
-}
-
-.quick-links ul li a {
-    text-decoration: none;
-    margin-bottom: 10px;
-    display: inline-block;
-    color: #000;
-}
-
-.quick-links ul li a:hover {
-    color: #29cce2;
+.contact-us p {
+    font-size: 13px;
 }
 
 .copy-right {
