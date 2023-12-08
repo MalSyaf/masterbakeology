@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="{{asset("web/css/style.css")}}">
+    <link rel="stylesheet" href="{{asset('web/css/style.css')}}">
     <title>Masterbakeology</title>
 </head>
 <body>
@@ -36,7 +36,7 @@
         <div class="content">
             <h1>Welcome <span>Pastry</span> Lovers</h1>
             <p>At Masterbakeology, we believe that every delightful morsel we bake tells a unique story, crafted with love, passion, and the finest ingredients. As you step into our virtual bakery, you embark on a journey through the world of artisanal baked goods that is as indulgent as it is heartwarming.</p>
-            <a href="{{url('login')}}"><button class="btn">ORDER NOW</button></a>
+            <a href="{{url('login')}}"><button class="btn">PRE-ORDER NOW</button></a>
         </div>
         <div class="shape"></div>
     </div>
@@ -133,6 +133,6 @@
 
     <!-- SCRIPT -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="{{asset("web/js/app.js")}}"></script>
+    <script src="{{asset('web/js/app.js')}}"></script>
 </body>
 </html>

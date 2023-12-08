@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="{{ asset("web/css/style.css")}}">
+    <link rel="stylesheet" href="{{ asset('web/css/style.css')}}">
     <title>Masterbakeology</title>
 </head>
 <body>
@@ -32,7 +32,7 @@
     <!-- LOGIN FORM -->
     <div class="login">
         <div class="login-image">
-            <img src="{{ asset("web/images/login.jpg")}} "alt="">
+            <img src="{{ asset('web/images/login.jpg')}} "alt="">
         </div>
         <div class="login-content">
             <div class="login-form">
@@ -40,12 +40,12 @@
                 <form action="">
                     <div class="login-input">
                         <input type="text" placeholder="Email">
-                        <input type="text" placeholder="Password">
+                        <input type="password" placeholder="Password">
                         <p><a href="">Forgot Password</a></p>
                     </div>
                     <div class="inner">
                         <div class="sign-up">
-                            <p>Don't have an account? <a href="register">Sign Up</a></p>
+                            <p>Don't have an account? <a href="{{url('/register')}}">Sign Up</a></p>
                         </div>
                         <div class="sign-in">
                             <a href="/"><input type="submit" value="Sign in" name=""></a>
@@ -85,6 +85,6 @@
 
      <!-- SCRIPT -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="{{ asset("web/js/app.js")}}"></script>
+    <script src="{{ asset('web/js/app.js')}}"></script>
 </body>
 </html>
